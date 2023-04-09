@@ -1,5 +1,9 @@
 import time 
 import random
+# need to set up  random functionality
+# need to add  more questions
+# make the game more universal for different kinds of trivia
+
 print("Hello! Welcome to my tech quiz.. I hope you brought your game face!")
 
 time.sleep(3)
