@@ -4,7 +4,7 @@ import random
 # need to add  more questions
 # make the game more universal for different kinds of trivia
 
-print("Hello! Welcome to my tech quiz.. I hope you brought your game face!")
+print("Hello! Welcome to The Tech Quiz.... I hope you brought your game face!")
 
 time.sleep(3)
 playing = input("Would you like to give it a go? ")
@@ -68,7 +68,7 @@ else:
     print("Ohh, I don't think thats right. Sorry!")
 
 time.sleep(2)
-answer = input("Which companies logo is a red checkmark? ")
+answer = input("Which cell phone companies logo is a red checkmark? ")
 if answer.lower() == "verizon":
     time.sleep(1)
     print("You've got it!")
@@ -99,7 +99,7 @@ else:
 
 time.sleep(2)
 answer = input("When it comes to programming, what do we store a value in? ")
-if answer.lower() == "variable":
+if answer.lower() == "variable" or "variables":
     time.sleep(1)
     print("Yes!")
     score += 1
@@ -109,7 +109,7 @@ else:
 
 time.sleep(2)
 answer = input("What program do we use to style Web pages? ")
-if answer.lower() == "css":
+if answer.lower() == "css" or "cascading style sheets":
     time.sleep(1)
     print("Nice job, thats right!")
     score += 1
@@ -144,3 +144,4 @@ time.sleep(2)
 
 
 print("You scored " +str(score) + " out of 12! Thank you for playing my tech quiz!")
+
