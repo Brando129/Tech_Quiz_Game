@@ -1,5 +1,6 @@
-import time 
+import time
 import random
+
 # need to set up  random functionality
 # need to add  more questions
 # make the game more universal for different kinds of trivia
@@ -34,7 +35,7 @@ if answer.lower() == "xbox":
     score += 1
 else:
     time.sleep(1)
-    print("I'm afraid thats not the right answer. Let's try another.")
+    print("I'm afraid thats not the right answer... Let's try another.")
 
 time.sleep(2)
 answer = input("Which computer language has the logo of a snake? ")
