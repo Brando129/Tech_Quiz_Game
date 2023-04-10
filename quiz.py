@@ -1,8 +1,9 @@
 import time
 import random
 
-# need to set up  random functionality
-# need to add  more questions
+# TO DO 
+# need to set up random functionality
+# need to add more questions
 # make the game more universal for different kinds of trivia
 
 print("Hello! Welcome to The Tech Quiz.... I hope you brought your game face!")
@@ -144,5 +145,5 @@ else:
 time.sleep(2)
 
 
-print("You scored " +str(score) + " out of 12! Thank you for playing my tech quiz!")
+print("You scored " + str(score) + " out of 12! Thank you for playing my tech quiz!")
 
