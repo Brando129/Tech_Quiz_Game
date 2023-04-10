@@ -56,12 +56,83 @@ else:
     time.sleep(1)
     print("Incorrect!")
 
-time.sleep(2)
-print("Okay, and the final question is...")
 
 time.sleep(2)
 answer = input("What does CPU stand for? ")
 if answer.lower() == "central processing unit":
+    time.sleep(1)
+    print("Congratulations, that's right!")
+    score += 1
+else:
+    time.sleep(1)
+    print("Ohh, I don't think thats right. Sorry!")
+
+time.sleep(2)
+answer = input("Which companies logo is a red checkmark? ")
+if answer.lower() == "verizon":
+    time.sleep(1)
+    print("You've got it!")
+    score += 1
+else:
+    time.sleep(1)
+    print("Sorry, that's not right.")
+
+time.sleep(2)
+answer = input("Who is the founder of Space X? ")
+if answer.lower() == "elon musk":
+    time.sleep(1)
+    print("Correct!")
+    score += 1
+else:
+    time.sleep(1)
+    print("Not quite. Lets try another.")
+
+time.sleep(2)
+answer = input("What does RAM stand for? ")
+if answer.lower() == "random access memory":
+    time.sleep(1)
+    print("Congratulations, that's right!")
+    score += 1
+else:
+    time.sleep(1)
+    print("Sorry, the answer we were looking for was Random Access Memory")
+
+time.sleep(2)
+answer = input("When it comes to programming, what do we store a value in? ")
+if answer.lower() == "variable":
+    time.sleep(1)
+    print("Yes!")
+    score += 1
+else:
+    time.sleep(1)
+    print("Sorry, thats not the right answer.")
+
+time.sleep(2)
+answer = input("What program do we use to style Web pages? ")
+if answer.lower() == "css":
+    time.sleep(1)
+    print("Nice job, thats right!")
+    score += 1
+else:
+    time.sleep(1)
+    print("Ohh, I don't think thats right.")
+
+time.sleep(2)
+answer = input("What company produces God of War? ")
+if answer.lower() == "santa monica studios":
+    time.sleep(1)
+    print("Yes, thats one of my favorite Developement Companies! ")
+    score += 1
+else:
+    time.sleep(1)
+    print("Incorrct! Better luck on the next one.")
+
+time.sleep(2)
+print("Okay, and the final question is...")
+
+time.sleep(1)
+answer = input("When it comes to megabytes or terrabytes, which is bigger? ")
+if answer.lower() == "terrabytes":
     time.sleep(1)
     print("Congratulations, that's right! Lets tally up your score. ")
     score += 1
@@ -71,4 +142,5 @@ else:
 
 time.sleep(2)
 
-print("Thank you for playing my tech quiz! You scored " +str(score) + " out of 5!")
+
+print("You scored " +str(score) + " out of 12! Thank you for playing my tech quiz!")
